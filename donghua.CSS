@@ -1,0 +1,38 @@
+.shang{
+    animation-name: zhuan1,shang;
+    animation-timing-function:linear,ease;
+    animation-delay: 0.3s,0s;
+    animation-duration:0.5s,0.5s;
+    width: 13px;
+    font-size: 14px;
+    transform-origin: center,center;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+.xia{
+    animation-name: zhuan2,xia;
+    animation-timing-function:linear,ease;
+    animation-delay: 0.3s,0s;
+    animation-duration:0.5s,0.5s;
+    width: 13px;
+    font-size: 14px;
+    transform-origin: center,center;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes zhuan1{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(45deg)}
+}
+@keyframes xia{
+    from{top:0px;}
+    to{top:8px;}
+}
+@keyframes zhuan2{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(-45deg)}
+}
+@keyframes shang{
+    from{top:0px;}
+    to{top:-8px;}
+}
